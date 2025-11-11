@@ -1,0 +1,12 @@
+# Ignorar compilados y archivos generados por NetBeans
+/build/
+/nbproject/private/
+/dist/
+/build/classes/
+/build/test/
+/*.class
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
