@@ -1,4 +1,4 @@
-package hospital.pacienteepisodio;
+package Sujetos;
 
 import java.util.ArrayList;
 
@@ -22,7 +22,7 @@ public class HistoriaClinica {
 
     @Override
     public String toString() {
-        return "Historia clínica de " + paciente.getDatos().getNombre()
-                + " (" + episodios.size() + " episodios registrados)";
+        return "Historia clínica de " + paciente.nombres + " " + paciente.apellidos +
+               " (" + episodios.size() + " episodios registrados)";
     }
 }

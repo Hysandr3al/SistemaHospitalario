@@ -1,4 +1,4 @@
-package hospital.pacienteepisodio;
+package Sujetos;
 
 public class Cirugia extends Episodio {
     private String tipo;

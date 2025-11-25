@@ -1,11 +1,16 @@
-package hospital.pacienteepisodio;
+package Sujetos;
 
 public class Main {
+
     public static void main(String[] args) {
 
         System.out.println("=== Sistema Hospitalario: Módulo Paciente y Episodio ===");
 
-        Paciente p1 = new Paciente("Ana López", 32, "12345678", "Av. Siempre Viva 742");
+        Paciente p1 = new Paciente(
+                "Ana", "López", "987654321",
+                "12345678", "Femenino", 32,
+                "O+", "Ninguna"
+        );
 
         p1.getHistoriaClinica().agregarEpisodio(new CitaAmbulatoria("Consulta general"));
         p1.getHistoriaClinica().agregarEpisodio(new Hospitalizacion("Ingreso por neumonía", 203));

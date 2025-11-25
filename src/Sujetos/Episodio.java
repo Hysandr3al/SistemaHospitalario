@@ -1,5 +1,4 @@
-package hospital.pacienteepisodio;
-
+package Sujetos;
 import java.time.LocalDate;
 
 public abstract class Episodio {

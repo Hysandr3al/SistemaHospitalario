@@ -1,5 +1,4 @@
-package hospital.pacienteepisodio;
-
+package Sujetos;
 public class CitaAmbulatoria extends Episodio {
 
     public CitaAmbulatoria(String descripcion) {

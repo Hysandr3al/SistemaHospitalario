@@ -1,5 +1,4 @@
-package hospital.pacienteepisodio;
-
+package Sujetos;
 public class Hospitalizacion extends Episodio {
     private int cama;
 

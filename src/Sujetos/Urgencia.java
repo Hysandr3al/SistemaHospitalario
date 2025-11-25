@@ -1,5 +1,4 @@
-package hospital.pacienteepisodio;
-
+package Sujetos;
 public class Urgencia extends Episodio {
     private String triage;
 
